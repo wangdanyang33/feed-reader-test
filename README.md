@@ -1,5 +1,11 @@
 Feed Reader Testing in Jasmine.js
 
-This project demonstrates browser based testing using Jasmine.
-The project bode base is from Udacity which has contained the first test "RSS Feeds".
+This project demonstrates browser-based testing using Jasmine.
 
+To run this test:
+
+1. Clone my repository: `https://github.com/wangdanyang33/feed-reader-test.git` in desktop, or download ZIP;
+
+2. Open index.html on your browser;
+
+3. Test results will be shown at the bottom of the screen.

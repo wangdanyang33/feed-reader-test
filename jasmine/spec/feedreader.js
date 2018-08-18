@@ -37,11 +37,11 @@ $(function () {
             expect(document.body.className).toContain('menu-hidden')
         })
 
-        it('toggles visibility when click', function () {
+        it('toggles visibility when clicked', function () {
             $('.menu-icon-link').click();
-            expect(document.body.className).not.toContain('menu-hidden')
+            expect($(document.body).hasClass('menu-hidden')).toBe(false)
             $('.menu-icon-link').click();
-            expect(document.body.className).toContain('menu-hidden')
+            expect($(document.body).hasClass('menu-hidden')).toBe(true)
         })
     });
 
